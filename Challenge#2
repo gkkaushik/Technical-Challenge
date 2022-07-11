@@ -1,1 +1,12 @@
+resource "aws_instance" "testing"{
+ami = ""ami-09fgbc09j"
+instance_type = "t2.micro"
 
+tags{
+name = "testing"
+}
+}
+
+output "ip"{
+value = aws_instance.testing.public_ip
+}
