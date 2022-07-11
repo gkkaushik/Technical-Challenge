@@ -1,1 +1,14 @@
+I am using go language here to return the value with the help of function.
+
+package main()
+
+function main(){
+var a int =1
+var b int =2
+var retrieve int
+retrive = max(a,b)
+fmt.Printf("Max value is :",retrieve)
+
+Answer is : Max value is 2
+
 
