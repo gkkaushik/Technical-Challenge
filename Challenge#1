@@ -1,6 +1,6 @@
 Considering 3 tier environment:
-1) Website-Will server as a frontendto provie service to its various customers.
-2) GKE -Will use for the app-tier.
+1) Website - Will serve as a frontend to provie service to its various customers.
+2) GKE - Will use for the app-tier.
 3) Cloud Mysql- Will use for data tier.
 
  Use external ingress  for Inbound internet traffic
