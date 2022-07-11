@@ -1,5 +1,5 @@
 Considering 3 tier environment:
-1) Website - Will serve as a frontend to provie service to its various customers.
+1) Website - Will serve as a frontend to provide service to its various customers.
 2) GKE - Will use for the app-tier.
 3) Cloud Mysql- Will use for data tier.
 
@@ -7,5 +7,6 @@ Considering 3 tier environment:
  Use https-LB for traffic load balancing and use the CDN 
  Use Regional GKE cluster for application high availibility.
  Use Multizonal node pools to distribute the load across multiple zones.
+ For cloudsql HA use primary and secondary instance , Point in time recovery as well.
  
  
