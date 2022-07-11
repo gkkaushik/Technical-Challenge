@@ -10,3 +10,8 @@ name = "testing"
 output "ip"{
 value = aws_instance.testing.public_ip
 }
+
+
+or
+
+terraform state show 'resource name'
