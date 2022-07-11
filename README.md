@@ -8,5 +8,5 @@ Three tier application.
 **challenge**#2
 Metadata of an AWS instance.
 
-**Challenge**#3
+**challenge**#3
 Need to write a funcction.
