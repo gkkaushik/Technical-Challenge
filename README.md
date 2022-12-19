@@ -1,5 +1,5 @@
 # Technical-Challenge
-**KPMG** challenge questions
+ challenge questions
 There are three challenges and each challenge is having one question:
 
 **challenge**#1
